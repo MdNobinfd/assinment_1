@@ -50,17 +50,6 @@ p {
     line-height: 48px;
     color: rgb(14, 14, 14);
 }
-
-button:hover{
-    background-color: white;
-    color:rgb(0, 106, 80);
-    border: 1px solid rgb(0, 106, 80);
-       transition: 0.6s;
-    -webkit-transition: 0.6s;
-    -moz-transition: 0.6s;
-    -ms-transition: 0.6s;
-    -o-transition: 0.6s;
-}
 /* Common Title Css here */
 
 
@@ -137,7 +126,7 @@ button:hover{
     color: rgb(255, 255, 255);
     padding:17px 34px;
     background-color:rgb(0, 106, 80);
-    border: none;
+    border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -390,5 +379,212 @@ button:hover{
     -moz-transition: 0.6s;
     -ms-transition: 0.6s;
     -o-transition: 0.6s;
+}
+.donate{
+    margin: 80px 0px;
+    text-align: center;
+}
+.donate .donate_header p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    padding:24px 0px 32px 0px;
+
+}
+.donate_content .donate_emonunt{
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 24px;
+
+}
+.donate_content .donate_emonunt .emount_cart{
+    padding: 40px;
+    background-color: white;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+
+}
+.donate_content .donate_emonunt .emount_cart h2{
+    color: rgba(14, 14, 14, 0.8);
+}
+.donate_content .donate_emonunt .emount_cart:hover{
+    background-color: #C6E4D6;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.donate_content .donate_emonunt .emount_cart:nth-child(2){
+    background-color: #C6E4D6;
+}
+.donate_content .donate_emonunt .emount_cart:nth-child(2):hover{
+    background-color: white;
+}
+.donate_bottom input{
+    width: 100%;
+    margin: 32px 0px;
+    box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    outline: none;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.3);
+}
+.donate_bottom input::placeholder{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.3);
+
+}
+.donate_content button{
+    border: 1px solid #006A50;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    padding: 17px 34px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: #006A50;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.donate_content button:hover{
+    border: 1px solid #006A50;
+    background-color: white;
+    color: #006A50;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.subscrib{
+    padding-bottom: 80px;
+}
+.subscrib_main{
+    text-align: center;
+    background-color: #C6E4D6;
+    padding: 80px 0px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+.subscrib_main .subscrib_tob p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    padding: 16px 0px 24px 0px;
+    width: 45%;
+    margin: 0 auto;
+}
+.subscrib_main .subscrib_meddle{
+    width: 45%;
+    margin: 0 auto;
+    display: flex;
+}
+.subscrib_main .subscrib_meddle input{
+    border:none;
+    outline: none;
+    padding: 18px 0px 18px 40px;
+    width: 100%;
+    border-radius: 8px 0px 0px 8px;
+    -webkit-border-radius: 8px 0px 0px 8px;
+    -moz-border-radius: 8px 0px 0px 8px;
+    -ms-border-radius: 8px 0px 0px 8px;
+    -o-border-radius: 8px 0px 0px 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: rgba(14, 14, 14, 0.829);
+}
+.subscrib_main .subscrib_meddle input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: rgba(14, 14, 14, 0.3);
+}
+.subscrib_main .subscrib_meddle button{
+    padding: 17px 34px;
+    border: 1px solid #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    background-color: #006A50;
+    cursor: pointer;
+    border-radius: 0px 8px 8px 0px;
+    -webkit-border-radius: 0px 8px 8px 0px;
+    -moz-border-radius: 0px 8px 8px 0px;
+    -ms-border-radius: 0px 8px 8px 0px;
+    -o-border-radius: 0px 8px 8px 0px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.subscrib_main .subscrib_meddle button:hover{
+    background-color: white;
+    color: #006A50;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.subscrib_main .subscrib_buttom p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: rgba(14, 14, 14, 0.7);
+    padding-top: 24px;
+    width: 45%;
+    margin: 0 auto;
+
+}
+.footer{
+    background-color: white;
+    padding: 50px 0px;
+}
+.footer_top{
+    padding-bottom: 32px;
+    border-bottom: 1px solid #0e0e0e2d;
+    text-align: center;
+}
+.footer_bottom{
+    text-align: center;
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 0px 23px;
+}
+.footer_bottom img{
+    width: 24px;
 }
 /* Css Components Design */
