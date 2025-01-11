@@ -303,4 +303,92 @@ button:hover{
     line-height: 24px;
     color: rgba(14, 14, 14, 0.8);
 }
+.news_header{
+    margin-bottom: 32px;
+}
+.news_header p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;;
+    color: rgba(14, 14, 14, 0.7);
+    padding-top:24px;
+}
+
+.news_blog .news_blog_1{
+    background-color: white;
+    padding:48px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 0px 32px;
+}
+.news_blog .news_blog_1:nth-child(2){
+    margin:24px 0px;
+}
+.news_blog_1 .news_blog_left img{
+    width: 408px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+.news_blog_1 .news_blog_right h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.news_blog_1 .news_blog_right img{
+    width: 134px;
+    margin: 12px 0px;
+}
+.news_blog_1 .news_blog_right h5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.news_blog_1 .news_blog_right p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    padding: 12px 0px 32px 0px;
+}
+.news_blog_1 .news_blog_right button{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    padding: 13px 26px;
+    background-color:#006A50;
+    border: 1px solid #006A50;
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    -ms-border-radius:8px;
+    -o-border-radius:8px;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+    cursor: pointer;
+}
+.news_blog_1 .news_blog_right button:hover{
+    border: 1px solid #006A50;
+    background-color: white;
+    color: #006A50;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
 /* Css Components Design */
